@@ -5,6 +5,7 @@ admin_user = st.secrets["admin"]["username"]
 admin_pass = st.secrets["admin"]["password"]
 
 st.title("🔑 Secrets Test")
+st.write("DEBUG - Secrets available:", dict(st.secrets))
 
 # Simple login form
 username = st.text_input("Username")
